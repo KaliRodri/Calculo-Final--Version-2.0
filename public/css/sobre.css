@@ -1,0 +1,2391 @@
+@media only screen and (max-width: 600px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #here2{
+        width:100%;
+        align-items: center;
+    }
+
+    @font-face {
+        font-family: FunCity;
+        src: url(FunCityLevel3Frame.otf);
+    }
+
+    header button img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .offcanvas-header{
+        color: chocolate;
+    }
+    #menu-Sm{
+        position: relative;
+        
+        margin-top: -13px;
+        z-index: 0;
+    }
+
+    header{
+        background-color: #ef5742;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+    }
+
+    header .title{
+        color: white;
+        width: 20%;
+        font-family: FunCity;
+        font-size: 1.2em;
+        margin-top: 4px;
+        margin-left: 10px;
+        font-weight: lighter;
+
+    }
+
+    header img{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: 16px;
+        
+    }
+    
+    header ul{
+        list-style: none;
+        width: 100%;
+        justify-content: space-evenly ;
+        margin-top: 20px;
+
+        
+    }
+    
+    .header1 li{
+        display: none;
+    }
+
+    .header1 .switch{
+        float: left;
+    }
+
+    #github-corner-top{
+        display: none;
+    }
+
+    header ul li .indicator{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: -68px;
+        text-align: center;
+        z-index: 0;
+        transform: translateY(30px);
+        opacity: 0;
+
+    }
+
+    #offcanvasRightLabel{
+        font-size: 3em;
+        color: black;
+    }
+    
+    header ul li a{
+        position: relative;
+        text-decoration: none;
+        color: #ef5742;
+        font-size: 2.4em;
+        font-family: sans-serif;
+        z-index: 1;
+
+        
+    }
+
+    header ul li a:hover{
+        border-bottom: 1px solid orangered;
+        color: #ef5742;
+    }
+    
+
+    .modal-title{
+        font-size: 1.2em;
+        font-family: FunCity, sans-serif;
+    }
+
+    .modal-title img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-text{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 20px;
+        font-size: 2.2em;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: rgb(239, 87, 66);
+        width: 600px;
+    }
+   
+    
+
+    #github-header{
+        display: none;
+    }
+
+    header .title a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-text p{
+        margin-bottom: -10px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    main img{
+        position: relative;
+        z-index: 1;
+    }
+    
+    @font-face {
+        font-family: Bakery;
+        src: url(bakery.otf);
+    }
+
+    @font-face {
+        font-family: Regina;
+        src: url(ReginaScript-mL1WG.otf);
+    }
+
+    @font-face {
+        font-family: Pacifico;
+        src: url(FiraSans-Regular.ttf)
+    }
+
+    @keyframes texto{
+        from{
+            opacity: 0;
+        }
+
+        to{
+            opacity: 1;
+        }
+    }
+
+    main .text{
+        text-align: center;
+        width: 600px;
+        margin: auto;
+        font-size: 2em;
+        font-family: Pacifico;
+        opacity: 0;
+        animation-name: texto;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+
+    
+
+    main .text p{
+        font-family: Bakery;
+        font-size: 2.8em;
+        color: #ef5742;
+        text-align: center;
+        
+        margin-bottom: -20px;
+    }
+
+
+
+    #sobre{
+        opacity: 1;
+        transform: none;
+    }
+
+    .text .social{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+
+    }    
+
+    .linkedin{
+        background-color: blue;
+        padding: 5px;
+        border-radius: 10px;
+        animation-name: linkedin;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 1.9s;
+        opacity: 0;
+    }
+
+    .linkedin img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .instagram{
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        padding: 5px;
+        border-radius: 10px;
+        animation-name: instagram;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 2.5s;
+        opacity: 0;
+    }
+
+    .instagram img{
+        width:60px;
+        height: 60px;
+    }
+
+    .facebook{
+        background-color: rgb(0, 119, 255);
+        padding: 5px;
+        border-radius: 10px;
+        animation-name: facebook;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 3s;
+        opacity: 0;
+        
+    }
+
+    .facebook img{
+        width:60px;
+        height: 60px;
+    }
+
+    .facebook:hover, .instagram:hover, .linkedin:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        transform: scale(1.1);
+        transition: all 0.5 ease-in-out;
+    }
+
+    @keyframes linkedin {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+    @keyframes instagram {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+    @keyframes facebook {
+        from{
+           opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        margin-bottom: -16px;
+        color: white;
+        padding-top: 15px;
+        height: auto;
+       width: 600px;
+       
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sun{
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+        
+    }
+
+    .moon{
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+        position: relative;
+        z-index: 1;
+        margin-left: 29px ;
+        
+    }
+
+    .moon-clicked{
+        display: none;
+    }
+
+    .sun-clicked{
+        display: none;
+    }
+
+    
+.switch {
+  margin-left: 220px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #323F4B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(239, 87, 66);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(29px);
+    -ms-transform: translateX(29px);
+    transform: translateX(29px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.dark-color-inside{
+    background-color: #323F4B;
+    color: #f5f6f7;
+    border: solid 1px #55697c;
+
+}
+
+.dark-color-inside::placeholder{
+    color: #f5f6f7;
+}
+
+.dark-color-inside-btn{
+    background-color: #1F2933;
+    color: #f5f6f7;
+    border: none;
+
+}
+
+.dark-color-modal{
+    background-color: #323F4B;
+    
+}
+
+.dark-color-modal-title{
+    color: #f5f6f7;
+}
+
+.github-corner{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    @font-face {
+        font-family: FunCity;
+        src: url(FunCityLevel3Frame.otf);
+    }
+
+    header button img{
+        width: 45px;
+        height: 45px;
+    }
+
+    #menu-Sm{
+        
+        
+        margin-top: -13px;
+    }
+
+    header{
+        background-color: #ef5742;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    header .title{
+        color: white;
+        width: 20%;
+        font-family: FunCity;
+        font-size: 1.2em;
+        margin-top: 4px;
+        margin-left: 10px;
+        font-weight: lighter;
+
+    }
+
+    header img{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: 16px;
+        
+    }
+    
+    header ul{
+       list-style: none;
+        width: 100%;
+        justify-content: space-evenly ;
+        margin-top: 20px;
+
+        
+    }
+
+    .header1 li{
+        display: none;
+    }
+
+    .header1 .switch{
+        float: left;
+    }
+
+    #github-corner-top{
+        display: none;
+    }
+
+    
+
+    header ul li .indicator{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: -68px;
+        text-align: center;
+        z-index: 0;
+        transform: translateY(30px);
+        opacity: 0;
+
+    }
+    
+    header ul li a{
+        position: relative;
+        text-decoration: none;
+        color: #ef5742;
+        font-size: 1.5em;
+        font-family: sans-serif;
+        z-index: 1;
+        
+    }
+
+    header ul li a:hover{
+        border-bottom: 1px solid rgb(253, 105, 6);
+        color: #ef5742;
+    }
+    
+
+    .modal-title{
+        font-size: 1.2em;
+        font-family: FunCity, sans-serif;
+    }
+
+    .modal-title img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-text{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 20px;
+        font-size: 1.8em;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: rgb(239, 87, 66);
+    }
+
+    header ul li a:hover{
+        color: white;
+    }
+    
+
+    .modal-title{
+        font-size: 1.2em;
+        font-family: FunCity, sans-serif;
+    }
+
+    .modal-title img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-text{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 20px;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: rgb(239, 87, 66);
+    }
+
+    #github-header{
+        display: none;
+    }
+
+    header .title a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-text p{
+        margin-bottom: -10px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    main img{
+        position: relative;
+        z-index: 1;
+    }
+    
+    @font-face {
+        font-family: Bakery;
+        src: url(bakery.otf);
+    }
+
+    @font-face {
+        font-family: Regina;
+        src: url(ReginaScript-d9xAX.ttf);
+    }
+
+    @font-face {
+        font-family: Pacifico;
+        src: url(FiraSans-Regular.ttf)
+    }
+
+    @keyframes texto{
+        from{
+            opacity: 0;
+        }
+
+        to{
+            opacity: 1;
+        }
+    }
+
+    main .text{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        font-size: 1.4em;
+        font-family: Pacifico;
+        opacity: 0;
+        animation-name: texto;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        margin-top: 20px;
+        
+        
+        
+        
+    }
+
+    main .text p{
+        font-family: Bakery;
+        font-size: 2.8em;
+        color: #ef5742;
+        text-align: center;
+        
+        margin-bottom: -20px;
+    }
+
+    @keyframes messenger{
+       from{
+        transform: translateX(-120px) translateY(120px);
+        opacity: 0;
+       }
+       
+       to{
+        transform: translateX(0px) translateY(-90px);
+        opacity: 1;
+       }
+
+    }
+
+    #sobre{
+        opacity: 1;
+        transform: none;
+    }
+     
+    .foto img{
+        animation-name: imagem;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        transform: translateX(-600px);
+        width: 500px;
+        height: auto;
+        
+    }
+
+    @keyframes imagem{
+        from{
+            transform: translateX(-600px);
+        }
+
+        to{
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes messenger2{
+        from{
+            transform: translateY(0);
+        }
+
+        to{
+            transform: translateY(5px);
+        }
+    }
+
+    .messenger{
+        position: absolute;
+        display: block;
+        animation-name: messenger2;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        transform: translateY(0);
+        margin-top: -805px ;
+        margin-left: 280px;
+        z-index: 0;        
+    }
+
+
+    .messenger img{
+        background-color: rgba(64, 224, 208, 0);
+        padding: 10px;
+        border-radius: 40px;
+        animation-name: messenger;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+        width: 100px;
+        height: 100px;
+        transform: translateX(-120px) translateY(120px);
+        opacity: 0;
+    }
+    
+    .text .social{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+    
+
+    .linkedin{
+        background-color: blue;
+        padding: 5px;
+        border-radius: 10px;
+        
+        animation-name: linkedin;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 1.9s;
+    }
+
+    .linkedin img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .instagram{
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        padding: 5px;
+        border-radius: 10px;
+        
+        animation-name: instagram;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 2.5s;
+    }
+
+    .instagram img{
+        width:50px;
+        height: 50px;
+    }
+
+    .facebook{
+        background-color: rgb(0, 119, 255);
+        padding: 5px;
+        border-radius: 10px;
+        
+        animation-name: facebook;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 3s;
+    }
+
+    .facebook img{
+        width:50px;
+        height: 50px;
+    }
+
+    .facebook:hover, .instagram:hover, .linkedin:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        transform: scale(1.1);
+        transition: all 0.5 ease-in-out;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        margin-bottom: -16px;
+        color: white;
+        padding-top: 15px;
+        margin-top: 20px;
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        margin-bottom: -16px;
+        color: white;
+        padding-top: 15px;
+        margin-top: 20px;
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        margin-bottom: -16px;
+        color: white;
+        padding-top: 15px;
+        margin-top: 20px;
+        
+        
+       
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sun{
+        width: 16px;
+        height: 16px;
+        margin-top: -5px;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+        
+    }
+
+    .moon{
+        width: 16px;
+        height: 16px;
+        margin-top: -4px;
+        position: relative;
+        z-index: 1;
+        margin-left: 25px ;
+        
+    }
+
+    .moon-clicked{
+        display: none;
+    }
+
+    .sun-clicked{
+        display: none;
+    }
+
+    
+.switch {
+  margin-left: 220px;
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #323F4B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(239, 87, 66);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.dark-color-inside{
+    background-color: #323F4B;
+    color: #f5f6f7;
+    border: solid 1px #55697c;
+
+}
+
+.dark-color-inside::placeholder{
+    color: #f5f6f7;
+}
+
+.dark-color-inside-btn{
+    background-color: #1F2933;
+    color: #f5f6f7;
+    border: none;
+
+}
+
+.dark-color-modal{
+    background-color: #323F4B;
+    
+}
+
+.github-corner{
+    display: none;
+}
+
+
+}
+
+@media only screen and (min-width: 768px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+    @font-face {
+        font-family: FunCity;
+        src: url(FunCityLevel3Frame.otf);
+    }
+    
+    header{
+        background-color: #ef5742;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu-Sm{
+        display: none;
+    }
+
+    header .title{
+        color: white;
+        width: 50%;
+        font-family: FunCity;
+        font-size: 1.2em;
+        margin-top: 19px;
+        margin-left: 10px;
+        font-weight: lighter;
+
+    }
+
+    header img{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: 16px;
+        
+    }
+
+    header .header1{
+        display: flex;
+    }
+    
+    header ul{
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around ;
+        margin-top: 20px;
+
+        
+    }
+
+    header ul li a:hover + .indicator{
+        transform: translateY(0px);
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    header ul li .indicator{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: -68px;
+        text-align: center;
+        z-index: 0;
+        transform: translateY(30px);
+        opacity: 0;
+
+    }
+    
+    header ul li a{
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-family: sans-serif;
+        z-index: 1;
+        
+    }
+
+    header ul li a:hover{
+        color: white;
+        
+    }
+    
+
+    .modal-title{
+        font-size: 1.2em;
+        font-family: FunCity, sans-serif;
+    }
+
+    .modal-title img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-text{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 20px;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: rgb(239, 87, 66);
+    }
+
+    #github-header{
+        display: none;
+    }
+
+    header .title a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-text p{
+        margin-bottom: -10px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main img{
+        position: relative;
+        z-index: 1;
+    }
+    
+    @font-face {
+        font-family: Bakery;
+        src: url(bakery.otf);
+    }
+
+    @font-face {
+        font-family: Regina;
+        src: url(ReginaScript-mL1WG.otf);
+    }
+
+    @font-face {
+        font-family: Pacifico;
+        src: url(FiraSans-Regular.ttf)
+    }
+
+    @keyframes texto{
+        from{
+            opacity: 0;
+        }
+
+        to{
+            opacity: 1;
+        }
+    }
+
+    main .text{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        font-size: 1.8em;
+        font-family: Pacifico;
+        opacity: 0;
+        animation-name: texto;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        
+        
+        
+        
+    }
+
+    main .text p{
+        font-family: Bakery;
+        font-size: 2.8em;
+        color: #ef5742;
+        text-align: center;
+        
+        margin-bottom: -30px;
+    }
+
+    @keyframes messenger{
+       from{
+        transform: translateX(-120px) translateY(120px);
+        opacity: 0;
+       }
+       
+       to{
+        transform: translateX(0px) translateY(-90px);
+        opacity: 1;
+       }
+
+    }
+
+    #sobre{
+        opacity: 1;
+        transform: none;
+    }
+     
+    .foto img{
+        animation-name: imagem;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        transform: translateX(-600px);
+        width: 420px;
+        height: auto;
+        margin-left: -80px;
+    }
+
+    @keyframes imagem{
+        from{
+            transform: translateX(-600px);
+        }
+
+        to{
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes messenger2{
+        from{
+            transform: translateY(0);
+        }
+
+        to{
+            transform: translateY(5px);
+        }
+    }
+
+    .messenger{
+        position: absolute;
+        display: block;
+        animation-name: messenger2;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        transform: translateY(0);
+        margin-top: -380px ;
+        margin-left: 180px;
+        z-index: 0;        
+    }
+
+
+    .messenger img{
+        background-color: rgba(64, 224, 208, 0);
+        padding: 10px;
+        border-radius: 40px;
+        animation-name: messenger;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+        width: 100px;
+        height: 100px;
+        transform: translateX(-120px) translateY(120px);
+        opacity: 0;
+    }
+    
+    .text .social{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+
+    .linkedin{
+        background-color: blue;
+        padding: 5px;
+        border-radius: 10px;
+    
+        animation-name: linkedin;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 1.9s;
+    }
+
+    .linkedin img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .instagram{
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        padding: 5px;
+        border-radius: 10px;
+
+        animation-name: instagram;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 2.5s;
+    }
+
+    .instagram img{
+        width:40px;
+        height: 40px;
+    }
+
+    .facebook{
+        background-color: rgb(0, 119, 255);
+        padding: 5px;
+        border-radius: 10px;
+
+        animation-name: facebook;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 3s;
+    }
+
+    .facebook img{
+        width:40px;
+        height: 40px;
+    }
+
+    .facebook:hover, .instagram:hover, .linkedin:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        transform: scale(1.1);
+        transition: all 0.5 ease-in-out;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        margin-bottom: -16px;
+        color: white;
+        padding-top: 15px;
+        margin-top: 20px;
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        margin-bottom: -16px;
+        color: white;
+        padding-top: 15px;
+        margin-top: 20px;
+        
+       
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sun{
+        width: 16px;
+        height: 16px;
+        margin-top: -5px;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+        
+    }
+
+    .moon{
+        width: 16px;
+        height: 16px;
+        margin-top: -6px;
+        position: relative;
+        z-index: 1;
+        margin-left: 25px;
+        
+    }
+
+    .moon-clicked{
+        display: none;
+    }
+
+    .sun-clicked{
+        display: none;
+    }
+
+    
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #323F4B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ef5742;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.github-corner{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 992px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    @font-face {
+        font-family: FunCity;
+        src: url(FunCityLevel3Frame.otf);
+    }
+    
+    header{
+        background-color: #ef5742;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    header .title{
+        color: white;
+        width: 40%;
+        font-family: FunCity;
+        font-size: 1.3em;
+        margin-top: 18px;
+        margin-left: 10px;
+        font-weight: lighter;
+
+    }
+
+    header img{
+        margin-left: 10px;
+        width: 35px;
+        height: 35px;
+        margin-top: 15px;
+        
+    }
+    
+    header ul{
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around ;
+        margin-top: 20px;
+
+        
+    }
+
+    header ul li a:hover + .indicator{
+        transform: translateY(0px);
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    header ul li .indicator{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: -68px;
+        text-align: center;
+        z-index: 0;
+        transform: translateY(30px);
+        opacity: 0;
+
+    }
+    
+    header ul li a{
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-family: sans-serif;
+        z-index: 1;
+        
+    }
+
+    header ul li a:hover{
+        color: white;
+        border: none;
+    }
+    
+   
+
+    .modal-title{
+        font-size: 1.2em;
+        font-family: FunCity, sans-serif;
+    }
+
+    .modal-title img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-text{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 20px;
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: rgb(239, 87, 66);
+    }
+
+    header .title a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-text p{
+        margin-bottom: -10px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main img{
+        position: relative;
+        z-index: 1;
+    }
+    
+    @font-face {
+        font-family: Bakery;
+        src: url(bakery.otf);
+    }
+
+    @font-face {
+        font-family: Regina;
+        src: url(ReginaScript-mL1WG.otf);
+    }
+
+    @font-face {
+        font-family: Pacifico;
+        src: url(FiraSans-Regular.ttf)
+    }
+
+    @keyframes texto{
+        from{
+            opacity: 0;
+        }
+
+        to{
+            opacity: 1;
+        }
+    }
+
+    main .text{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        font-size: 2em;
+        font-family: Pacifico;
+        opacity: 0;
+        animation-name: texto;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        
+        
+        
+        
+    }
+
+    main .text p{
+        font-family: Bakery;
+        font-size: 2.8em;
+        color: #ef5742;
+        text-align: center;
+        
+        margin-bottom: -30px;
+    }
+
+    @keyframes messenger{
+       from{
+        transform: translateX(-120px) translateY(120px);
+        opacity: 0;
+       }
+       
+       to{
+        transform: translateX(0px) translateY(-90px);
+        opacity: 1;
+       }
+
+    }
+
+    #sobre{
+        opacity: 1;
+        transform: none;
+    }
+     
+    .foto img{
+        animation-name: imagem;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        transform: translateX(-600px);
+        width: 520px;
+        height: auto;
+        margin-left: -80px;
+    }
+
+    @keyframes imagem{
+        from{
+            transform: translateX(-600px);
+        }
+
+        to{
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes messenger2{
+        from{
+            transform: translateY(0);
+        }
+
+        to{
+            transform: translateY(5px);
+        }
+    }
+
+    .messenger{
+        position: absolute;
+        display: block;
+        animation-name: messenger2;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        transform: translateY(0);
+        margin-top: -400px ;
+        margin-left: 250px;
+        z-index: 0;        
+    }
+
+
+    .messenger img{
+        background-color: rgba(64, 224, 208, 0);
+        padding: 10px;
+        border-radius: 40px;
+        animation-name: messenger;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+        width: 110px;
+        height: 110px;
+        transform: translateX(-120px) translateY(120px);
+        opacity: 0;
+    }
+    
+    .text .social{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+
+    .linkedin{
+        background-color: blue;
+        padding: 5px;
+        border-radius: 10px;
+        
+        animation-name: linkedin;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 1.9s;
+    }
+
+    .linkedin img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .instagram{
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        padding: 5px;
+        border-radius: 10px;
+        
+        animation-name: instagram;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 2.5s;
+    }
+
+    .instagram img{
+        width:50px;
+        height: 50px;
+    }
+
+    .facebook{
+        background-color: rgb(0, 119, 255);
+        padding: 5px;
+        border-radius: 10px;
+     
+        animation-name: facebook;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 3s;
+    }
+
+    .facebook img{
+        width:50px;
+        height: 50px;
+    }
+
+    .facebook:hover, .instagram:hover, .linkedin:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        transform: scale(1.1);
+        transition: all 0.5 ease-in-out;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        margin-bottom: -16px;
+        color: white;
+        padding-top: 15px;
+        
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sun{
+        width: 16px;
+        height: 16px;
+        margin-top: -5px;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+        
+    }
+
+    .moon{
+        width: 16px;
+        height: 16px;
+        margin-top: -6px;
+        position: relative;
+        z-index: 1;
+        margin-left: 25px;
+        
+    }
+
+    .moon-clicked{
+        display: none;
+    }
+
+    .sun-clicked{
+        display: none;
+    }
+
+    
+.switch {
+    z-index: 99;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #323F4B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ef5742;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.github-corner{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 1200px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+   
+ 
+    @font-face {
+        font-family: FunCity;
+        src: url(FunCityLevel3Frame.otf);
+    }
+    
+    header{
+        background-color: #ef5742;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    header .title a{
+       color: white;
+       text-decoration: none;
+    }
+
+    header .title{
+        color: white;
+        width: 40%;
+        font-family: FunCity;
+        font-size: 1.6em;
+        margin-top: 14px;
+        margin-left: 10px;
+        font-weight: lighter;
+
+    }
+
+    header img{
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        
+    }
+    
+    header ul{
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around ;
+        margin-top: 20px;
+
+        
+    }
+
+    header ul li a:hover + .indicator{
+        transform: translateY(0px);
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    header ul li .indicator{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: -68px;
+        text-align: center;
+        z-index: 0;
+        transform: translateY(30px);
+        opacity: 0;
+
+    }
+
+    
+    header ul li a{
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-family: sans-serif;
+        z-index: 1;
+        
+    }
+
+    header ul li a:hover{
+        color: white;
+    }
+    
+
+    .modal-title{
+        font-size: 1.2em;
+        font-family: FunCity, sans-serif;
+    }
+
+    .modal-title img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-text{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 20px;
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: rgb(239, 87, 66);
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main img{
+        position: relative;
+        z-index: 1;
+    }
+    
+    @font-face {
+        font-family: Bakery;
+        src: url(bakery.otf);
+    }
+
+    @font-face {
+        font-family: Regina;
+        src: url(ReginaScript-mL1WG.otf);
+    }
+
+    @font-face {
+        font-family: Pacifico;
+        src: url(FiraSans-Regular.ttf)
+    }
+
+    @keyframes texto{
+        from{
+            transform: translateX(720px);
+        }
+
+        to{
+            transform: translateX(0);
+        }
+    }
+
+    main .text{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        font-size: 2em;
+        font-family: Pacifico;
+        transform: translateX(720px);
+        animation-name: texto;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+        
+        
+        
+        
+    }
+
+    main .text p{
+        font-family: Bakery;
+        font-size: 2.8em;
+        color: #ef5742;
+        text-align: center;
+        
+        margin-bottom: -30px;
+    }
+
+    #sobre{
+        opacity: 1;
+        transform: none;
+    }
+     
+    .foto img{
+        animation-name: imagem;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        transform: translateX(-600px);
+        width: 700px;
+        height: auto;
+        margin-left: -80px;
+    }
+
+   
+
+    .messenger{
+        position: absolute;
+        display: block;
+        animation-name: messenger2;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        transform: translateY(0);
+        margin-top: -500px ;
+        margin-left: 380px;
+        z-index: 0;        
+    }
+
+    
+    .text .social{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+    @keyframes linkedin {
+        from{
+          
+            opacity: 0;
+        }
+        to{
+            
+            opacity: 1;
+        }
+    }
+
+    @keyframes instagram {
+        from{
+          
+            opacity: 0;
+        }
+        to{
+          
+            opacity: 1;
+        }
+    }
+
+    @keyframes facebook {
+        from{
+            
+            opacity: 0;
+        }
+        to{
+           
+            opacity: 1;
+        }
+    }
+    
+
+    .linkedin{
+        background-color: blue;
+        padding: 5px;
+        border-radius: 10px;
+        
+        animation-name: linkedin;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 1.9s;
+        opacity: 0;
+    }
+
+    .linkedin img{
+        width: 70px;
+        height: 60px;
+    }
+
+    .instagram{
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        padding: 5px;
+        border-radius: 10px;
+      
+        animation-name: instagram;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 2.5s;
+        opacity: 0;
+    }
+
+    .instagram img{
+        width:70px;
+        height: 70px;
+    }
+
+    .facebook{
+        background-color: rgb(0, 119, 255);
+        padding: 5px;
+        border-radius: 10px;
+     
+        animation-name: facebook;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-delay: 3s;
+        opacity: 0;
+    }
+
+    .facebook img{
+        width:70px;
+        height: 70px;
+    }
+
+    .facebook:hover, .instagram:hover, .linkedin:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        transform: scale(1.1);
+        transition: all 0.5 ease-in-out;
+    }
+
+    footer{
+        text-align: center;
+        background-color: rgb(239, 87, 66);
+        padding-bottom: 1px;
+        color: white;
+        padding-top: 15px;
+        margin-top: 2%;
+        position: static;
+    }
+    
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sun{
+        width: 16px;
+        height: 16px;
+        margin-top: -5px;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+        
+    }
+
+    .moon{
+        width: 16px;
+        height: 16px;
+        margin-top: -6px;
+        position: relative;
+        z-index: 1;
+        margin-left: 25px;
+        
+    }
+
+    .moon-clicked{
+        display: none;
+    }
+
+    .sun-clicked{
+        display: none;
+    }
+
+    
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #323F4B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ef5742;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+
+    
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+}

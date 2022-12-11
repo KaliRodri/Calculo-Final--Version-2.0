@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/css/subject.css">
+    <link rel="icon" type="image/svg" sizes="40x40" href="/public/Imagens/logoIcon.svg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/public/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+    <title>Cálculo Final</title>
+
+    
+</head>
+<body id="container-all">
+    {{>header}}
+
+    <div class="main-text" id="text-container">
+        <p>{{text}}</p>
+    </div>
+    
+    <div id="subjects">
+        <section class="firstSemester">
+            <p>Primeiro Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects1}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="secondSemester">
+            <p>Segundo Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects2}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="thirdSemester">
+            <p>Terceiro Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects3}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="fourthSemester">
+            <p>Quarto Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects4}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="fifthSemester">
+            <p>Quinto Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects5}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="sixtSemester">
+            <p>Sexto Semestre</p>
+            <ul class="subjectslist" >
+                {{#each subjects6}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="seventhSemester">
+            <p>Sétimo Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects7}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="eightSemester">
+            <p>Oitavo Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects8}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="ninthSemester">
+            <p>Nono Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects9}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+
+        <section class="tenthSemester">
+            <p>Décimo Semestre</p>
+            <ul class="subjectslist">
+                {{#each subjects10}}
+                 <li><a href="/calculo" class="aqui" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    {{>modal}}
+
+    {{>footer}}
+
+    <!--JavaScript-->
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type = "text/javascript" src="/public/js/cal.js"></script>
+    <script type = "text/javascript" src="/public/js/darkmode.js"></script>
+
+    <!--Bootstrap Js-->
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="/public/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="/public/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
