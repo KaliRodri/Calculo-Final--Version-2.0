@@ -6,6 +6,8 @@ const path = require("path");
 
 const hbs = require("hbs");
 
+const port = process.env.PORT || 3000;
+
 hbs.registerPartials(path.join(__dirname, "/templates/partials"));
 
 app.set("view engine", "hbs");
@@ -414,6 +416,6 @@ app.get("/about", (req, res) => {
   });
 });
 
-app.listen("3000", (req, res) => {
+app.listen(port, (req, res) => {
   console.log("Server is running on port 3000");
 });
