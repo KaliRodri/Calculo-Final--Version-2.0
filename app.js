@@ -6,7 +6,7 @@ const path = require("path");
 
 const hbs = require("hbs");
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5002;
 
 hbs.registerPartials(path.join(__dirname, "/templates/partials"));
 
