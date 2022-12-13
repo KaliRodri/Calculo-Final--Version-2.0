@@ -27,7 +27,7 @@ app.get("/biology", (req, res) => {
   res.render("biology", {
     text: "Agora escolha sua matéria:",
     footertext: "©2021 CalculoFinal. Todos os direitos reservados.",
-    courseTitle: "Ciencias Biologicas",
+    courseTitle: "Ciências Biologicas",
     subjects1: [
       "Estudo Evolutivo das Geosferas",
       "Fundamentos de Química",
@@ -330,7 +330,7 @@ app.get("/informatics", (req, res) => {
   res.render("informatics", {
     text: "Agora escolha sua matéria:",
     footertext: "©2021 CalculoFinal. Todos os direitos reservados.",
-    courseTitle: "Sistemas de Informacao",
+    courseTitle: "Sistemas de Informação",
     subjects1: [
       "Estudos Sócio Filosóficos",
       "Comunicação e Expressão",
@@ -417,5 +417,5 @@ app.get("/about", (req, res) => {
 });
 
 app.listen(port, (req, res) => {
-  console.log("Server is running on port 5002");
+  console.log("Server is running on port 3000");
 });
