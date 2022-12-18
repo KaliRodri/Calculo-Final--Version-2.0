@@ -402,6 +402,77 @@ app.get("/informatics", (req, res) => {
   });
 });
 
+app.get("/portuguese", (req, res) => {
+  res.render("portuguese", {
+    text: "Agora escolha sua matéria:",
+    footertext: "©2021 CalculoFinal. Todos os direitos reservados.",
+    courseTitle: "Vernaculas",
+    subjects1: [
+      "Estudos Filosóficos",
+      "Significação e Contexto",
+      "Estudos Teóricos do Texto Literário",
+      "Leitura e Produção de Texto",
+      "Estabelecimento dos Estudos Lingüísticos",
+      "Prática Pedagógica I",
+      "Seminário Interdisciplinar de Pesquisa I",
+    ],
+    subjects2: [
+      "Morfologia e Construção do Significado",
+      "Tradição e Ruptura em Literaturas de Língua Portuguesa",
+      "Estudos Sócio-Antropológicos",
+      "Estudo da Produção Literária no Brasil",
+      "Prática Pedagógica II",
+      "Seminário Interdisciplinar de Pesquisa II",
+    ],
+    subjects3: [
+      "Estudos Epistemológicos da Aprendizagem",
+      "Construção do Sentido no Texto Literário",
+      "Relações Sintáticas na Língua",
+      "O Estético e o Lúdico na Literatura Infanto- Juvenil",
+      "Literatura e Outras Artes",
+      "Prática Pedagógica III",
+      "Seminário Interdisciplinar de Pesquisa III",
+    ],
+    subjects4: [
+      "Psicologia e Educação",
+      "Texto e Discurso",
+      "Cânones e Contextos na Literatura Brasileira",
+      "Estudos Fonéticos e Fonológicos",
+      "Diversidade Lingüística",
+      "Prática Pedagógica IV",
+      "Seminário Interdisciplinar de Pesquisa IV",
+    ],
+    subjects5: [
+      "Cânones e Contextos na Literatura Portuguesa",
+      "Constituição das Línguas Românicas",
+      "Literatura e Cultura Afro-Brasileira",
+      "Língua e Cultura Latinas",
+      "Estudo da Ficção Brasileira Contemporânea",
+      "Seminário Interdisciplinar de Pesquisa V",
+      "Formação Histórica das Línguas Românicas",
+    ],
+    subjects6: [
+      "Literatura: Crítica, História, Cultura e Sociedade",
+      "Língua Estrangeira Instrumental I",
+      "Aspectos da Literatura Portuguesa",
+      "Língua e Literatura Latinas",
+      "Seminário Interdisciplinar de Pesquisa VI",
+      "Constituição Histórica do Português Brasileiro",
+      "Estudos da Produção Literária Baiana",
+      "Crítica Textual: Edições e Estudos",
+    ],
+    subjects7: [
+      "Seminário Interdisciplinar de Pesquisa VII",
+      "Estágio Curricular Sup. III",
+      "Constituição Histórica do Português Brasileiro",
+      "Estudo da Produção Literária Baiana",
+      "Crítica Textual: ED. e Estudos",
+      "Lingua Estrangeira Instrumental II",
+    ],
+    subjects8: ["Estágio Curricular Supervisionado IV", "TCC"],
+  });
+});
+
 app.get("/calculo", (req, res) => {
   res.render("calculo", {
     text: "Agora digite suas notas e veja o resultado!",
