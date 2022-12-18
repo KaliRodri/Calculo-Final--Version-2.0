@@ -31,13 +31,18 @@
         color: black;
     }
 
+    .title a{
+        text-decoration: none;
+        color: white;
+    }
+
 
     header{
         background-color: #ef5742;
         height: 60px;
         display: flex;
         flex-direction: row;
-        width: 600px;
+        width: 100%;
     }
 
     header .title{
@@ -61,12 +66,9 @@
     
     header ul{
         list-style: none;
-        
         width: 100%;
         justify-content: space-evenly ;
         margin-top: 20px;
-
-        
     }
 
     .header1 li{
@@ -80,8 +82,6 @@
     #github-corner-top{
         display: none;
     }
-
-  
 
     header ul li a:hover + .indicator{
         transform: translateY(0px);
@@ -122,6 +122,47 @@
         border-bottom: solid 1px black;
         color: #ef5742;
     }
+
+    #subjects{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #subjects section p{
+        text-align: center;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+        font-size: 1.4em;
+        
+    }
+
+    #subjects section ul .subjectLi{
+        text-align: center;
+        list-style: none;
+        border: solid 1px rgb(239, 87, 66);
+        border-radius: 5px;
+        padding: 8px;
+        margin: 10px;
+        transition: all 0.2s;
+    }
+
+    #subjects section ul .subjectLi a{
+        text-decoration: none;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+
+        
+
+    }
+
+    #subjects section ul .subjectLi:hover{
+        transform: scale(110%);
+        box-shadow: rgb(239, 87, 66) 1px 1px 3px;
+        
+    }
     
 
     .modal-title{
@@ -150,10 +191,10 @@
         margin-bottom: -10px;
     }
 
-    section .form1, main .form2{
+   #modal-here .form1{
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 100%;
         margin: auto;
         padding-bottom: 15px;
         align-items: center;
@@ -237,7 +278,7 @@
     button{
         padding: 30px;
         margin-top: 35px;
-        width: 30%;
+        width: 100%;
         border: none;
        
         
@@ -489,6 +530,11 @@ input:checked + .slider:before {
         color: black;
     }
 
+    .title a{
+        color: white;
+        text-decoration: none;
+    }
+
     header{
         background-color: #ef5742;
         height: 60px;
@@ -538,8 +584,6 @@ input:checked + .slider:before {
         
     }
     
-    
-
     header ul li a:hover + .indicator{
         transform: translateY(0px);
         opacity: 1;
@@ -577,6 +621,46 @@ input:checked + .slider:before {
         border: 1px solid #ef5742;
     }
     
+    #subjects{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #subjects section p{
+        text-align: center;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+        font-size: 1.4em;
+        
+    }
+
+    #subjects section ul .subjectLi{
+        text-align: center;
+        list-style: none;
+        border: solid 1px rgb(239, 87, 66);
+        border-radius: 5px;
+        padding: 8px;
+        margin: 10px;
+        transition: all 0.2s;
+    }
+
+    #subjects section ul .subjectLi a{
+        text-decoration: none;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+
+        
+
+    }
+
+    #subjects section ul .subjectLi:hover{
+        transform: scale(110%);
+        box-shadow: rgb(239, 87, 66) 1px 1px 3px;
+        
+    }
 
     .modal-title{
         font-size: 1.2em;
@@ -603,10 +687,10 @@ input:checked + .slider:before {
         margin-bottom: -10px;
     }
 
-    section .form1, main .form2{
+    #modal-here .form1{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding-bottom: 15px;
     }
@@ -694,7 +778,7 @@ input:checked + .slider:before {
     button{
         padding: 30px;
         margin-top: 35px;
-        width: 40%;
+        width: 100%;
         border: none;
     }
 
@@ -767,6 +851,7 @@ input:checked + .slider:before {
         margin-top: 100px;
         position: relative;
         padding-bottom: 1px;
+        width: 100%;
        
     }
     
@@ -776,19 +861,19 @@ input:checked + .slider:before {
     }
 
     .sun{
-        width: 16px;
-        height: 16px;
-        margin-top: -38px;
+        width: 18px;
+        height: 18px;
+        margin-top: -32px;
         position: relative;
         z-index: 1;
-        margin-left: -28px;
+        margin-left: -32px;
         
     }
 
     .moon{
-        width: 14px;
-        height: 14px;
-        margin-top: -143px;
+        width: 18px;
+        height: 18px;
+        margin-top: -138px;
         position: relative;
         z-index: 1;
         margin-left: 25px ;
@@ -808,8 +893,8 @@ input:checked + .slider:before {
   margin-left: 220px;
   position: relative;
   display: inline-block;
-  width: 48px;
-  height: 20px;
+  width: 52px;
+  height: 28px;
 }
 
 /* Hide default HTML checkbox */
@@ -835,10 +920,10 @@ input:checked + .slider:before {
 .slider:before {
   position: absolute;
   content: "";
-  height: 13px;
-  width: 13px;
+  height: 18px;
+  width: 18px;
   left: 4px;
-  bottom: 4px;
+  bottom: 5px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
@@ -946,6 +1031,11 @@ input:checked + .slider:before {
 
     }
 
+    .title a{
+        color: white;
+        text-decoration: none;
+    }
+
     header img{
         margin-left: 10px;
         width: 30px;
@@ -1006,6 +1096,47 @@ input:checked + .slider:before {
     .github-corner{
         display: none;
     }
+
+    #subjects{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #subjects section p{
+        text-align: center;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+        font-size: 1.4em;
+        
+    }
+
+    #subjects section ul .subjectLi{
+        text-align: center;
+        list-style: none;
+        border: solid 1px rgb(239, 87, 66);
+        border-radius: 5px;
+        padding: 8px;
+        margin: 10px;
+        transition: all 0.2s;
+    }
+
+    #subjects section ul .subjectLi a{
+        text-decoration: none;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+
+        
+
+    }
+
+    #subjects section ul .subjectLi:hover{
+        transform: scale(110%);
+        box-shadow: rgb(239, 87, 66) 1px 1px 3px;
+        
+    }
     
 
     .modal-title{
@@ -1033,10 +1164,10 @@ input:checked + .slider:before {
         margin-bottom: -10px;
     }
 
-    section .form1, main .form2{
+    #modal-here .form1{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding-bottom: 15px;
     }
@@ -1054,9 +1185,6 @@ input:checked + .slider:before {
     input[list="Disciplina"]{
         font-size:1.5em;
     }
-
-    
-        
     
         input[type="number"]{
             font-size:1.5em;
@@ -1109,7 +1237,7 @@ input:checked + .slider:before {
     button{
         padding: 30px;
         margin-top: 35px;
-        width: 40%;
+        width: 100%;
         border: none;
     }
 
@@ -1185,6 +1313,7 @@ input:checked + .slider:before {
         color: white;
         padding-top: 15px;
         margin-top: 100px;
+        width: 100%;
     }
     
     footer img{
@@ -1437,12 +1566,52 @@ input:checked + .slider:before {
         margin-bottom: -10px;
     }
 
-    section .form1, main .form2{
+    #modal-here .form1{
         display: flex;
         flex-direction: column;
         width: 80%;
         margin: auto;
         padding-bottom: 15px;
+    }
+
+    #subjects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #subjects section p{
+        text-align: center;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+        font-size: 1.4em;
+        
+    }
+
+    #subjects section ul .subjectLi{
+        text-align: center;
+        list-style: none;
+        border: solid 1px rgb(239, 87, 66);
+        border-radius: 5px;
+        padding: 8px;
+        margin: 10px;
+        transition: all 0.2s;
+    }
+
+    #subjects section ul .subjectLi a{
+        text-decoration: none;
+        color: rgb(239, 87, 66);
+        font-weight: bold;
+
+        
+
+    }
+
+    #subjects section ul .subjectLi:hover{
+        transform: scale(110%);
+        box-shadow: rgb(239, 87, 66) 1px 1px 3px;
+        
     }
 
     input[list="curso"]{
@@ -1710,6 +1879,10 @@ input:checked + .slider:before {
         margin: 0;
     }
 
+    *::selection{
+        background: none;
+    }
+
     .github-corner{
         display: block;
     }
@@ -1729,6 +1902,7 @@ input:checked + .slider:before {
         height: 60px;
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
 
     header .title{
@@ -1828,6 +2002,7 @@ input:checked + .slider:before {
     #subjects{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         justify-content: center;
 
     }
@@ -1911,10 +2086,10 @@ input:checked + .slider:before {
         margin-bottom: -10px;
     }
 
-    section .form1, main .form2{
+    #modal-here .form1{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding-bottom: 15px;
     }
