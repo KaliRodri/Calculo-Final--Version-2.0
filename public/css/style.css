@@ -132,10 +132,10 @@
         list-style: none;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        width: 85vh;
         font-size: 2em;
         text-align: center;
+        
     }
 
     #courseList li{
@@ -146,11 +146,14 @@
         background-color: rgb(239, 87, 66);
         color: white;
         transition: all 0.2s;
+        
+        
     }
 
     #courseList li a{
         color: white;
         text-decoration: none;
+        
         
     }
 
