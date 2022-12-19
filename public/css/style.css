@@ -538,6 +538,7 @@ input:checked + .slider:before {
         height: 60px;
         display: flex;
         flex-direction: row;
+        width: 100vw;
     }
 
     header .title{
@@ -626,7 +627,7 @@ input:checked + .slider:before {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-around;
+        align-items: center;
         font-size: 2em;
         text-align: center;
     }
