@@ -127,7 +127,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         width: 85vh;
 
     }
@@ -148,6 +148,7 @@
         padding: 8px;
         margin: 10px;
         transition: all 0.2s;
+        
     }
 
     #subjects section ul .subjectLi a{
