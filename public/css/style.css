@@ -130,13 +130,12 @@
 
     #courseList{
         list-style: none;
-        display: flex;
+        display: none;
         flex-direction: column;
         width: 85vh;
         font-size: 2em;
         text-align: center;
         align-items: center;
-        
     }
 
     #courseList li{
